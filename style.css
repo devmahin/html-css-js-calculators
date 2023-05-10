@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cal{
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 7px;
+
+}   
+
+#display{
+    width: 100%;
+    padding: 14px 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+}
+
+.btns button{
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
